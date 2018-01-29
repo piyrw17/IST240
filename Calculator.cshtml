@@ -3,25 +3,26 @@
 
 int NumberA = Convert.ToInt32(Request["NumberA"]);
 int NumberB = Convert.ToInt32(Request["NumberB"]);
+int Answer;
 if(IsPost){
 
 
 switch (Function)
 {
-case Add:
-NumberA + NumberB;
+case Addition:
+NumberA + NumberB = Answer;
 break;
 
-case Sub:
-NumberA - NumberB;
+case Subtraction:
+NumberA - NumberB = Answer;
 break;
 
-case Div:
-NumberA / NumberB;
+case Division:
+NumberA / NumberB = Answer;
 break;
 
-case Mult:
-NumberA * NumberB;
+case Multiplication:
+NumberA * NumberB = Answer;
 break;
 
 default:
@@ -44,22 +45,22 @@ break;
 			<fieldset class='legacy-form-row'>
 					  <legend>Function:</legend>
 					  <input id='Add'
-							 name='add'
+							 name='Function'
 							 type='radio'
 							 value='Addition' />
 					  <label class='radio-label'>Addition</label>
 					  <input id='Sub'
-							 name='sub'
+							 name='Function'
 							 type='radio'
 							 value='Subtraction' />
 					  <label class='radio-label'>Subtraction</label>
 					  <input id='Div'
-							 name='div'
+							 name='Function'
 							 type='radio'
 							 value='Division' />
 					  <label class='radio-label'>Division</label>
 					  <input id='Mult'
-							 name='mult'
+							 name='Funciton'
 							 type='radio'
 							 value='Multiplication' />
 					  <label class='radio-label'>Multiplication</label>
