@@ -1,11 +1,12 @@
  
 @{
 
-int Answer = 0;
+int Answer;
 if(IsPost){
 int NumberA = Convert.ToInt32(Request["NumberA"]);
 int NumberB = Convert.ToInt32(Request["NumberB"]);
 string Function = Request["Function"];
+int Answer = 0;
 
 switch (Function)
 {
