@@ -1,11 +1,10 @@
  
 @{
 
-
+int Answer;
 if(IsPost){
 int NumberA = Convert.ToInt32(Request["NumberA"]);
 int NumberB = Convert.ToInt32(Request["NumberB"]);
-int Answer;
 string Function = Request["Function"];
 
 switch (Function)
@@ -71,7 +70,7 @@ break;
 			<button>Submit</button>
 			
 			<div>
-			"Answer:" @Answer
+			Answer: @Answer
 			</div>
 </body> 
 </html>
