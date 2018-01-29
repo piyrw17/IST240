@@ -1,9 +1,8 @@
  
 @{
-Request["NumberA"];
-Request["NumberB"];
-int NumberA = Convert.ToInt32(NumberA);
-int NumberB = Convert.ToInt32(NumberB);
+
+int NumberA = Convert.ToInt32(Request["NumberA"]);
+int NumberB = Convert.ToInt32(Request["NumberB"]);
 if(IsPost){
 
 
