@@ -3,15 +3,39 @@
 <body> 
 @{
 if(isPost){
+int NumberA = Request["NumberA"]
+int NumberB = Request["NumberB"]
+
+switch (Function)
+{
+case Add:
+NumberA + NumberB;
+break;
+
+case Sub:
+NumberA - NumberB;
+break;
+
+case Div:
+NumberA / NumberB;
+break;
+
+case Mult:
+NumberA * NumberB;
+break;
+
+default:
+break;
+}
 
 }
 }
 
 			<div class='numbers'>
-				  <label>Number1</label>
-				  <input id='numberOne' name='numberOne' type='text'/>
-				  <label>Number2</label>
-				  <input id='numberTwo' name='numberTwo' type='text'/>
+				  <label>NumberA</label>
+				  <input id='numberA' name='numberA' type='text'/>
+				  <label>NumberB</label>
+				  <input id='numberB' name='numberB' type='text'/>
 			</div>
 			
 			<fieldset class='legacy-form-row'>
@@ -39,5 +63,8 @@ if(isPost){
 				</fieldset>
 			
 			<button>Submit</button>
+			
+			<label>Answer:</label>
+				  <input id='answer' name='answer' type='text'/>
 </body> 
 </html>
