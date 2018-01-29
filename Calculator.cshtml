@@ -1,16 +1,16 @@
  
 @{
 
+
+if(IsPost){
 int NumberA = Convert.ToInt32(Request["NumberA"]);
 int NumberB = Convert.ToInt32(Request["NumberB"]);
 int Answer;
 string Function = Request["Function"];
-if(IsPost){
-
 
 switch (Function)
 {
-case Add:
+case Addition:
 NumberA + NumberB = Answer;
 break;
 
