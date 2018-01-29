@@ -1,7 +1,7 @@
  
 @{
 
-int Answer;
+int Answer = answer;
 if(IsPost){
 int NumberA = Convert.ToInt32(Request["NumberA"]);
 int NumberB = Convert.ToInt32(Request["NumberB"]);
@@ -10,19 +10,19 @@ string Function = Request["Function"];
 switch (Function)
 {
 case "Addition":
-Answer =NumberA + NumberB;
+answer =NumberA + NumberB;
 break;
 
 case "Subtraction":
-Answer = NumberA - NumberB;
+answer = NumberA - NumberB;
 break;
 
 case "Division":
-Answer = NumberA / NumberB;
+answer = NumberA / NumberB;
 break;
 
 case "Multiplication":
-Answer = NumberA * NumberB;
+answer = NumberA * NumberB;
 break;
 
 default:
@@ -70,7 +70,7 @@ break;
 			<button>Submit</button>
 			
 			<div>
-			Answer: @Answer
+			Answer: @answer
 			</div>
 </body> 
 </html>
