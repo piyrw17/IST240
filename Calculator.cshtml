@@ -4,6 +4,7 @@
 int NumberA = Convert.ToInt32(Request["NumberA"]);
 int NumberB = Convert.ToInt32(Request["NumberB"]);
 int Answer;
+string Function = Request["Function"];
 if(IsPost){
 
 
@@ -60,7 +61,7 @@ break;
 							 value='Division' />
 					  <label class='radio-label'>Division</label>
 					  <input id='Mult'
-							 name='Funciton'
+							 name='Function'
 							 type='radio'
 							 value='Multiplication' />
 					  <label class='radio-label'>Multiplication</label>
