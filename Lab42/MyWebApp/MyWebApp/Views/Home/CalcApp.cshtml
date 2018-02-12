@@ -1,0 +1,45 @@
+﻿@model string
+@{
+    ViewBag.Title = "CalcApp";
+}
+
+<form action="/Home/CalcApp" method="post" class='speaker-form'>
+
+    <div class='numbers'>
+        <label>NumberA</label>
+        <input id='numberA' name='numberA' type='text' />
+        <label>NumberB</label>
+        <input id='numberB' name='numberB' type='text' />
+    </div>
+
+    <fieldset class='legacy-form-row'>
+        <legend>Function:</legend>
+        <input id='Add'
+               name='Function'
+               type='radio'
+               value='Addition' />
+        <label class='radio-label'>Addition</label>
+        <input id='Sub'
+               name='Function'
+               type='radio'
+               value='Subtraction' />
+        <label class='radio-label'>Subtraction</label>
+        <input id='Div'
+               name='Function'
+               type='radio'
+               value='Division' />
+        <label class='radio-label'>Division</label>
+        <input id='Mult'
+               name='Function'
+               type='radio'
+               value='Multiplication' />
+        <label class='radio-label'>Multiplication</label>
+    </fieldset>
+
+    <button>Submit</button>
+
+    <div>
+        Answer: @Model
+    </div>
+</form>
+
