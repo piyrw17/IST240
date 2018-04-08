@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="BookContext-Web.config Connection String" description="BookContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=nickhughes.database.windows.net;            Initial Catalog=nickhughes;            Persist Security Info=True;            User ID=nhughes;            Password=Nhug@2017" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\NHTI\\Documents\\GitHub\\IST240\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nick\\Documents\\GitHub\\IST240\\WebApplication2\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookContext']/@connectionString" />
   </parameter>
 </parameters>

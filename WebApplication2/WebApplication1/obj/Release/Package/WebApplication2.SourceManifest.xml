@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
-  <IisApp path="C:\Users\NHTI\Documents\GitHub\IST240\WebApplication2\WebApplication1\obj\Release\Package\PackageTmp" />
-  <setAcl path="C:\Users\NHTI\Documents\GitHub\IST240\WebApplication2\WebApplication1\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
-  <setAcl path="C:\Users\NHTI\Documents\GitHub\IST240\WebApplication2\WebApplication1\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+  <IisApp path="C:\Users\Nick\Documents\GitHub\IST240\WebApplication2\WebApplication1\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\Users\Nick\Documents\GitHub\IST240\WebApplication2\WebApplication1\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\Nick\Documents\GitHub\IST240\WebApplication2\WebApplication1\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
 </sitemanifest>
